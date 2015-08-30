@@ -21,5 +21,6 @@ int main(void)
 	pthread_join(thing1,NULL);
 	pthread_join(thing2,NULL);
 
+	printf("return \n");  //nerver run this!!
 	return 0;
 }
